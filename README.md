@@ -1,7 +1,7 @@
 # Protein-Lipid Minimum Distance Calculator
 A python script to calculate and output the minimum distances between a protein and selected lipid molecules from a molecular dynamics simulation using MDAnalysis with parallel processing.
 
-# Requirement
+## Requirement
 
 - Python 3.6 or higher
 - MDAnalysis
@@ -33,5 +33,5 @@ The output CSV files will have the following columns:
 
 The CSV files will be named protein_{lipid}_distance.csv, where {lipid} is replaced with the lipid residue name.
 
-# License
+## License
 This project is licensed under the MIT License.
