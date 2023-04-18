@@ -30,7 +30,8 @@ The output CSV files will have the following columns:
 **time (ps)**: The time in picoseconds for each frame in the trajectory.
 **lipid_resid**: The residue ID of the lipid molecule.
 **min_distance_protein_{lipid} (nm)**: The minimum distance between the protein and the lipid residue in nanometers.
+
 The CSV files will be named protein_{lipid}_distance.csv, where {lipid} is replaced with the lipid residue name.
 
-License
+# License
 This project is licensed under the MIT License.
