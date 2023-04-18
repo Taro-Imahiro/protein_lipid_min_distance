@@ -19,7 +19,6 @@ pip install MDAnalysis pandas numpy
 ```
 python protein_lipid_min_distance.py -s TOPOLOGY -f TRAJECTORY
 ```
-Replace topology.gro and trajectory.xtc with your topology and trajectory files, respectively.
 
 After executing the script, you will be prompted to select the lipid residues you would like to calculate the distances for. The script will display a list of lipid candidates found in your topology file.
 
